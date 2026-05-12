@@ -1,0 +1,25 @@
+{
+  "name": "Semillas de Esperanza",
+  "short_name": "Semillas",
+  "description": "ONG peruana que transforma vidas en comunidades rurales del Perú.",
+  "start_url": "/SemillasDeEsperanza/",
+  "scope": "/SemillasDeEsperanza/",
+  "display": "standalone",
+  "background_color": "#1a3a2a",
+  "theme_color": "#c9a84c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/SemillasDeEsperanza/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/SemillasDeEsperanza/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
