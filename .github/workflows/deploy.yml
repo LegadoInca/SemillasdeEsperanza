@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: /SemillasDeEsperanza/
+          BASE_PATH: /SemillasdeEsperanza/
       - name: Fix 404
         run: cp out/index.html out/404.html
       - name: Deploy
