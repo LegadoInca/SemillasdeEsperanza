@@ -1,67 +1,36 @@
-# Semillas de Esperanza — ONG Comunidades Campesinas del Perú
+# Semillas de Esperanza - ONG Perú
 
-## 1. Descripción del Proyecto
+## 1. Project Description
+Sitio web oficial de la ONG peruana "Semillas de Esperanza", dedicada a transformar vidas en comunidades rurales del Perú. El sitio es una landing page completa con múltiples secciones: presentación, impacto, proyectos, apadrinamiento, donaciones, transparencia y contacto.
 
-**Semillas de Esperanza** es una ONG peruana dedicada al desarrollo humano integral de comunidades campesinas en provincias del Perú. Su misión es acompañar a mujeres, niños y hombres en sus historias de superación: acceso a educación, salud, emprendimiento, identidad cultural y bienestar familiar. No se limita a sectores productivos específicos (café, cacao, artesanías), sino que abarca un enfoque amplio y humano.
+## 2. Page Structure
+- `/` - Home (landing page completa con todas las secciones)
 
-**Público objetivo del sitio web:**
-- Donantes individuales y corporativos
-- Voluntarios y aliados estratégicos
-- Medios de comunicación y organismos internacionales
-- Comunidades beneficiarias
+## 3. Core Features
+- [x] Banner de emergencia activa
+- [x] Navegación fija con scroll
+- [x] Hero section con imagen de fondo y estadísticas
+- [x] Barra de estadísticas de impacto
+- [x] Sección "Quiénes Somos" con video de fondo
+- [x] Carrusel de áreas de trabajo (6 áreas)
+- [x] Testimonios/historias reales interactivos
+- [x] Proyectos activos con barras de progreso
+- [x] Programa de apadrinamiento de niños
+- [x] Sistema de donaciones con montos predefinidos
+- [x] Sección de transparencia financiera
+- [x] Aliados estratégicos y voluntarios
+- [x] Formulario de contacto
+- [x] Footer completo
 
-**Valor central:** Cada persona tiene una historia de lucha y superación. La ONG es el puente entre esa historia y un futuro digno.
+## 4. Data Model Design
+No se requiere base de datos. El sitio es informativo con datos estáticos y mock data para demostración.
 
-## 2. Estructura de Páginas
+## 5. Backend / Third-party Integration Plan
+- No se requiere backend. El sitio es estático.
+- Formulario de contacto: usar get_form_url para envío de mensajes.
 
-- `/` — Página principal (landing page completa con todas las secciones)
+## 6. Development Phase Plan
 
-### Secciones de la página principal:
-1. **Navbar** — Navegación fija con banner de urgencia
-2. **Hero** — Imagen de impacto, mensaje central sobre dignidad y futuro humano
-3. **Stats** — Métricas de impacto (familias, regiones, años, proyectos)
-4. **Quiénes Somos** — Historia y misión de la ONG, enfoque humano amplio
-5. **Áreas de Impacto** — Educación infantil, salud materna, emprendimiento femenino, identidad cultural, nutrición, vivienda
-6. **Historias Reales** — Testimonios de mujeres, niños y hombres beneficiarios
-7. **Proyectos Activos** — Proyectos en curso con progreso y urgencia
-8. **Cómo Ayudar / Donaciones** — Montos sugeridos, impacto por donación
-9. **Transparencia** — Distribución de fondos, certificaciones
-10. **Aliados** — Organizaciones internacionales y nacionales
-11. **Contacto** — Formulario de contacto y voluntariado
-12. **Footer** — Links, redes sociales, datos legales
-
-## 3. Características Principales
-
-- [x] Sitio web informativo de una sola página (SPA)
-- [x] Secciones de impacto con datos reales
-- [x] Historias de superación (mujeres, niños, hombres)
-- [x] Sistema de donaciones con montos sugeridos
-- [x] Formulario de contacto funcional
-- [x] Diseño responsive (móvil y escritorio)
-- [x] SEO optimizado para ONG peruana
-- [ ] Integración con pasarela de pagos (fase futura)
-- [ ] Panel de administración de proyectos (fase futura)
-
-## 4. Modelo de Datos
-
-No se requiere base de datos en esta fase. Toda la información es estática con datos mock realistas.
-
-## 5. Integraciones de Terceros
-
-- **Supabase:** No requerido en esta fase
-- **Stripe:** Posible integración futura para donaciones en línea
-- **Formularios:** Sistema de formularios de Readdy para contacto y voluntariado
-
-## 6. Plan de Desarrollo
-
-### Fase 1 (Actual): Rediseño completo del sitio
-- **Objetivo:** Reconstruir el sitio con enfoque humano amplio (no solo café/cacao/artesanías)
-- **Entregable:** Landing page completa con todas las secciones rediseñadas
-
-### Fase 2 (Futura): Donaciones en línea
-- **Objetivo:** Integrar pasarela de pagos para donaciones
-- **Entregable:** Flujo de donación funcional con Stripe
-
-### Fase 3 (Futura): Panel de gestión
-- **Objetivo:** Panel para actualizar proyectos, historias y métricas
-- **Entregable:** Panel admin con Supabase
+### Phase 1: Estructura base y componentes principales
+- Goal: Crear todos los componentes de la landing page y ensamblar la página principal.
+- Deliverable: Página home completa con todas las secciones reconstruidas.
